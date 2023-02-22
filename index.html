@@ -1,463 +1,1195 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>个人简历-金韬</title>
-    <meta name="description" content="CV From Kingtous"/>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/static/css/aos.css" rel="stylesheet">
-    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/static/styles/main.css" rel="stylesheet">
-    <link href="/static/css/styles.css" rel="stylesheet">
-</head>
-<body id="top">
-<header>
-    <div class="profile-page sidebar-collapse">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
-            <div class="container">
-                <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">个人简历</a>
-                    <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navigation" aria-controls="navigation" aria-expanded="false"
-                            aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span
-                            class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse justify-content-end" id="navigation">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">关于我</a></li>
-                        <li class="nav-item"><a class="nav-link smooth-scroll" href="#education">教育经历</a></li>
-                        <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">专业技能</a></li>
-                        <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">成长经历</a></li>
-
-                        <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">联系方式</a></li>
-                    </ul>
-                </div>
+    <meta name="description" content="CV From Kingtous" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="/static/css/aos.css" rel="stylesheet" />
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/static/styles/main.css" rel="stylesheet" />
+    <link href="/static/css/styles.css" rel="stylesheet" />
+  </head>
+  <body id="top">
+    <header>
+      <div class="profile-page sidebar-collapse">
+        <nav
+          class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary"
+          color-on-scroll="400"
+        >
+          <div class="container">
+            <div class="navbar-translate">
+              <a class="navbar-brand" href="#" rel="tooltip">个人简历</a>
+              <button
+                class="navbar-toggler navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navigation"
+                aria-controls="navigation"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-bar bar1"></span
+                ><span class="navbar-toggler-bar bar2"></span
+                ><span class="navbar-toggler-bar bar3"></span>
+              </button>
             </div>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navigation"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#about">关于我</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#education"
+                    >教育经历</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#skill">专业技能</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#experience"
+                    >成长经历</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#bk-experience"
+                    >本科经历</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#contact">联系方式</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
-    </div>
-</header>
-<div class="page-content">
-    <div>
+      </div>
+    </header>
+    <div class="page-content">
+      <div>
         <div class="profile-page">
-            <div class="wrapper">
-                <div class="page-header page-header-small" filter-color="green">
-                    <div class="page-header-image" data-parallax="true"
-                         style="background-image: url('/static/images/cc-bg-1.jpg');"></div>
-                    <div class="container">
-                        <div class="content-center">
-                            <div class="cc-profile-image"><a href="#"><img src="/static/images/kingtous.png"
-                                                                           alt="Image"/></a></div>
-                            <div class="h2 title">金韬</div>
-                            <p class="category text-white">Web全栈工程师</p><a class="btn btn-primary" href="/static/file/cv.pdf"
-                                                                          target="_blank"
-                                                                          data-aos="zoom-in"
-                                                                          data-aos-anchor="data-aos-anchor">下载简历
-                        </a>
-                        </div>
-                    </div>
-                    {#                    github链接#}
-                    <div class="section">
-
-                        <div class="container">
-                            <div class="button-container">
-                                <a class="btn btn-default btn-round btn-lg btn-icon"
-                                   href="https://github.com/Kingtous"
-                                   target="_blank"
-                                   rel="tooltip"
-                                   title="Github主页"><i class="fa fa-github"></i></a>
-
-                                <a class="btn btn-default btn-round btn-lg btn-icon"
-                                   href="http://kingtous.cn"
-                                   target="_blank"
-                                   rel="tooltip"
-                                   title="博客主页"><i class="fa fa-home"></i></a>
-                            </div>
-                        </div>
-                    </div>
+          <div class="wrapper">
+            <div class="page-header page-header-small" filter-color="green">
+              <div
+                class="page-header-image"
+                data-parallax="true"
+                style="background-image: url('/static/images/cc-bg-1.jpg')"
+              ></div>
+              <div class="container">
+                <div class="content-center">
+                  <div class="cc-profile-image">
+                    <a href="#"
+                      ><img src="/static/images/kingtous.png" alt="Image"
+                    /></a>
+                  </div>
+                  <div class="h2 title">金韬</div>
+                  <p class="category text-white">
+                    华中科技大学·计算科学与技术学院
+                  </p>
+                  <a
+                    class="btn btn-primary"
+                    href="/static/file/金韬.pdf"
+                    target="_blank"
+                    data-aos="zoom-in"
+                    data-aos-anchor="data-aos-anchor"
+                    >下载简历
+                  </a>
                 </div>
+              </div>
+              {# github链接#}
+              <div class="section">
+                <div class="container">
+                  <div class="button-container">
+                    <a
+                      class="btn btn-default btn-round btn-lg btn-icon"
+                      href="https://github.com/Kingtous"
+                      target="_blank"
+                      rel="tooltip"
+                      title="Github主页"
+                      ><i class="fa fa-github"></i
+                    ></a>
+
+                    <a
+                      class="btn btn-default btn-round btn-lg btn-icon"
+                      href="http://kingtous.cn"
+                      target="_blank"
+                      rel="tooltip"
+                      title="博客主页"
+                      ><i class="fa fa-home"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
 
         <div class="section" id="about">
-            <div class="container">
-                <div class="card" data-aos="fade-up" data-aos-offset="10">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12">
-                            <div class="card-body">
-                                <div class="h4 mt-0 title">关于</div>
-                                <p>金韬，2017级计算机科学与技术毕业生</p>
-                                <p>东北大学秦皇岛分校 计算机与通信工程学院</p>
-                                <p>绩点排名：15/210，综合排名：2/210</p>
-                                <p>曾获2次国家奖学金，1次校内综合奖学金，在多个比赛中获得佳绩</p>
-                                <p>热爱钻研，具有很强的学习能力、动手能力、团队组织能力</p>
-                                <p>业余爱好唱歌，视频剪辑，尤克里里</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <div class="card-body">
-                                <div class="h4 mt-0 title">基本信息</div>
-                                <div class="row">
-                                    <div class="col-sm-2"><strong class="text-uppercase">年龄</strong></div>
-                                    <div class="col-sm-10">22</div>
-                                </div>
-                                <div class="row mt-3">
-                                    <div class="col-sm-2"><strong class="text-uppercase">邮箱:</strong></div>
-                                    <div class="col-sm-10">me@kingtous.cn</div>
-                                </div>
-                                <div class="row mt-3">
-                                    <div class="col-sm-2"><strong class="text-uppercase">手机:</strong></div>
-                                    <div class="col-sm-10">+86-15533508140</div>
-                                </div>
-                                <div class="row mt-3">
-                                    <div class="col-sm-2"><strong class="text-uppercase">地址:</strong></div>
-                                    <div class="col-sm-10">河北省秦皇岛市海港区143号东北大学秦皇岛分校</div>
-                                </div>
-                                <div class="row mt-3">
-                                    <div class="col-sm-2"><strong class="text-uppercase">语言:</strong></div>
-                                    <div class="col-sm-10">汉语，英语</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <div class="container">
+            <div class="card" data-aos="fade-up" data-aos-offset="10">
+              <div class="row">
+                <div class="col-lg-6 col-md-12">
+                  <div class="card-body">
+                    <div class="h4 mt-0 title">关于</div>
+                    <p>
+                      金韬，男，本科2017级计算机科学与技术本科毕业生，推免至华中科技大学。热爱开源，助力开源，回馈开源。
+                    </p>
+                    <p class="h5">研究生资料</p>
+                    <p>硕士：华中科技大学 计算机科学与技术学院</p>
+                    <p>
+                      华中科技大学新生特等奖学金，2021年第十八届华为杯数学建模国赛三等奖，2021年第十一届MathorCup高校数学建模挑战赛国二等奖
+                    </p>
+                    <p>
+                      2022华为软件精英挑战赛武长赛区5/323，2022 GitLink GLCC
+                      <a
+                        href="https://github.com/monoio-rs/monoio-gateway"
+                        target="_blank"
+                        >Monoio Gateway</a
+                      >
+                      S级评价
+                    </p>
+                    <p>计算机软件与理论（学硕）</p>
+                    <p class="h5">本科资料</p>
+                    <p>本科：东北大学秦皇岛分校 计算机与通信工程学院</p>
+                    <p>
+                      河北省优秀毕业生、2019-2020河北省三好学生、优秀团员标兵、社会实践先进个人
+                    </p>
+                    <p>绩点：4.12/5.00，绩点排名：14/210，综合排名：2/210</p>
+                    <p>
+                      曾获3次国家奖学金，1次创新创业奖学金，1次校内综合奖学金，在多个比赛中获得佳绩
+                    </p>
+                    <p>热爱钻研，具有很强的学习能力、动手能力、团队组织能力</p>
+                  </div>
                 </div>
+                <div class="col-lg-6 col-md-12">
+                  <div class="card-body">
+                    <div class="h4 mt-0 title">基本信息</div>
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <strong class="text-uppercase">年龄</strong>
+                      </div>
+                      <div class="col-sm-10">23</div>
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col-sm-2">
+                        <strong class="text-uppercase">邮箱:</strong>
+                      </div>
+                      <div class="col-sm-10">me@kingtous.cn</div>
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col-sm-2">
+                        <strong class="text-uppercase">手机:</strong>
+                      </div>
+                      <div class="col-sm-10">+86-15180596882</div>
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col-sm-2">
+                        <strong class="text-uppercase">地址:</strong>
+                      </div>
+                      <div class="col-sm-10">
+                        湖北省武汉市洪山区华中科技大学
+                      </div>
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col-sm-2">
+                        <strong class="text-uppercase">政治面貌:</strong>
+                      </div>
+                      <div class="col-sm-10">中共党员</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
         <div class="section" id="education">
-            <div class="container cc-education">
-                <div class="h4 text-center mb-4 title">教育经历</div>
-                <div class="card">
-                    <div class="row">
-                        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50"
-                             data-aos-duration="500">
-                            <div class="card-body cc-education-header">
-                                <p>2017 - 2021</p>
-                                <div class="h5">本科</div>
-                            </div>
-                        </div>
-                        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                            <div class="card-body">
-                                <div class="h5">计算机科学与技术专业</div>
-                                <p class="category">东北大学秦皇岛分校</p>
-                                <p>主要课程：</p>
-                                <p>计算机网络、编译原理、操作系统、计算机组成原理、软件工程、概率论等</p>
-                                <p>曾担任计算机类1702班班长，曾为校园媒体东秦在线美工部成员，参加校园合唱团</p>
-                            </div>
-                        </div>
-                    </div>
+          <div class="container cc-education">
+            <div class="h4 text-center mb-4 title">教育经历</div>
+            <div class="card">
+              <div class="row">
+                <div
+                  class="col-md-3 bg-primary"
+                  data-aos="fade-right"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body cc-education-header">
+                    <p>2021.9-至今</p>
+                    <div class="h5">硕士</div>
+                  </div>
                 </div>
+                <div
+                  class="col-md-9"
+                  data-aos="fade-left"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body">
+                    <div class="h5">
+                      计算机科学与技术学院 · 计算机软件与理论专业
+                    </div>
+                    <p class="category">华中科技大学</p>
+                    <p>华中科技大学现代数据工程与实时计算（ADE）实验室</p>
+                    <p>
+                      论文产出：<a
+                        href="https://doi.org/10.1016/j.sysarc.2022.102470"
+                        >《ompTG: From OpenMP Programs to Task
+                        Graphs》,详见后文</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
 
+              <div class="row">
+                <div
+                  class="col-md-3 bg-primary"
+                  data-aos="fade-right"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body cc-education-header">
+                    <p>2017 - 2021</p>
+                    <div class="h5">本科</div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-9"
+                  data-aos="fade-left"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body">
+                    <div class="h5">
+                      计算机与通信工程学院 · 计算机科学与技术专业
+                    </div>
+                    <p class="category">东北大学</p>
+                    <p>主要课程：</p>
+                    <p>
+                      计算机网络、编译原理、操作系统、计算机组成原理、软件工程、概率论等
+                    </p>
+                    <p>
+                      曾担任计算机类1702班班长，曾为校园媒体东秦在线美工部成员，参加校园合唱团
+                    </p>
+                    <p>毕业设计：</p>
+                    <a
+                      target="_blank"
+                      href="https://github.com/Kingtous/Sysy2020-llvm-compiler/"
+                      >基于LLVM的WebC编译器设计与实现</a
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
         <div class="section" id="skill">
-            <div class="container">
-                <div class="h4 text-center mb-4 title">专业技能</div>
-                <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="progress-container progress-primary"><span
-                                        class="progress-badge">Git</span>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-primary" data-aos="progress-full"
-                                             data-aos-offset="10" data-aos-duration="2000" role="progressbar"
-                                             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                                             style="width: 75%;"></div>
-                                        <span class="progress-value">75%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="progress-container progress-primary"><span
-                                        class="progress-badge">Flutter (Android App + Js Web)</span>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-primary" data-aos="progress-full"
-                                             data-aos-offset="10" data-aos-duration="2000" role="progressbar"
-                                             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                                             style="width: 75%;"></div>
-                                        <span class="progress-value">75%</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="progress-container progress-primary"><span
-                                        class="progress-badge">Android (Java/Kotlin)</span>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-primary" data-aos="progress-full"
-                                             data-aos-offset="10" data-aos-duration="2000" role="progressbar"
-                                             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                                             style="width: 70%;"></div>
-                                        <span class="progress-value">70%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="progress-container progress-primary"><span
-                                        class="progress-badge">Flask+Gevent(Python后端)</span>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-primary" data-aos="progress-full"
-                                             data-aos-offset="10" data-aos-duration="2000" role="progressbar"
-                                             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                                             style="width: 65%;"></div>
-                                        <span class="progress-value">65%</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="progress-container progress-primary">
-                                    <span class="progress-badge">HTML+CSS+JavaScript</span>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-primary" data-aos="progress-full"
-                                             data-aos-offset="10" data-aos-duration="2000" role="progressbar"
-                                             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                                             style="width: 60%;"></div>
-                                        <span class="progress-value">60%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="progress-container progress-primary"><span
-                                        class="progress-badge">React Web</span>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-primary" data-aos="progress-full"
-                                             data-aos-offset="10" data-aos-duration="2000" role="progressbar"
-                                             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                                             style="width: 55%;"></div>
-                                        <span class="progress-value">55%</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="progress-container progress-primary">
-                                    <span class="progress-badge">C++嵌入式开发</span>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-primary" data-aos="progress-full"
-                                             data-aos-offset="10" data-aos-duration="2000" role="progressbar"
-                                             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-                                             style="width: 55%;"></div>
-                                        <span class="progress-value">55%</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+          <div class="container">
+            <div class="h4 text-center mb-4 title">专业技能</div>
+            <div
+              class="card"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+            >
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="progress-container progress-primary">
+                      <span class="progress-badge">Git</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar progress-bar-primary"
+                          data-aos="progress-full"
+                          data-aos-offset="10"
+                          data-aos-duration="2000"
+                          role="progressbar"
+                          aria-valuenow="60"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 75%"
+                        ></div>
+                        <span class="progress-value">75%</span>
+                      </div>
                     </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="progress-container progress-primary">
+                      <span class="progress-badge"
+                        >Dart (Flutter Desktop & Mobile)</span
+                      >
+                      <div class="progress">
+                        <div
+                          class="progress-bar progress-bar-primary"
+                          data-aos="progress-full"
+                          data-aos-offset="10"
+                          data-aos-duration="2000"
+                          role="progressbar"
+                          aria-valuenow="60"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 70%"
+                        ></div>
+                        <span class="progress-value">75%</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="progress-container progress-primary">
+                      <span class="progress-badge">Rust</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar progress-bar-primary"
+                          data-aos="progress-full"
+                          data-aos-offset="10"
+                          data-aos-duration="2000"
+                          role="progressbar"
+                          aria-valuenow="60"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 75%"
+                        ></div>
+                        <span class="progress-value">70%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="progress-container progress-primary">
+                      <span class="progress-badge">C++</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar progress-bar-primary"
+                          data-aos="progress-full"
+                          data-aos-offset="10"
+                          data-aos-duration="2000"
+                          role="progressbar"
+                          aria-valuenow="60"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 65%"
+                        ></div>
+                        <span class="progress-value">65%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="progress-container progress-primary">
+                      <span class="progress-badge">Java</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar progress-bar-primary"
+                          data-aos="progress-full"
+                          data-aos-offset="10"
+                          data-aos-duration="2000"
+                          role="progressbar"
+                          aria-valuenow="60"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 60%"
+                        ></div>
+                        <span class="progress-value">60%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="progress-container progress-primary">
+                      <span class="progress-badge">Python</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar progress-bar-primary"
+                          data-aos="progress-full"
+                          data-aos-offset="10"
+                          data-aos-duration="2000"
+                          role="progressbar"
+                          aria-valuenow="60"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 55%"
+                        ></div>
+                        <span class="progress-value">60%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="progress-container progress-primary">
+                      <span class="progress-badge">Node Javascript</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar progress-bar-primary"
+                          data-aos="progress-full"
+                          data-aos-offset="10"
+                          data-aos-duration="2000"
+                          role="progressbar"
+                          aria-valuenow="60"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 55%"
+                        ></div>
+                        <span class="progress-value">60%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="progress-container progress-primary">
+                      <span class="progress-badge">Golang</span>
+                      <div class="progress">
+                        <div
+                          class="progress-bar progress-bar-primary"
+                          data-aos="progress-full"
+                          data-aos-offset="10"
+                          data-aos-duration="2000"
+                          role="progressbar"
+                          aria-valuenow="60"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 55%"
+                        ></div>
+                        <span class="progress-value">50%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
         <div class="section" id="experience">
-            <div class="container cc-experience">
-                <div class="h4 text-center mb-4 title">成长经历</div>
-                <div class="card">
-                    <div class="row">
-                        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50"
-                             data-aos-duration="500">
-                            <div class="card-body cc-experience-header">
-                                <p>2019.10 - 2020.04</p>
-                                <div class="h5">上海白日梦科技有限公司</div>
-                            </div>
-                        </div>
-                        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                            <div class="card-body">
-                                <div class="h5">实习-移动端(Flutter方向)开发</div>
-                                <p>担任《此时》移动端项目组组长一职</p>
-                                <P>参与项目的设计与研究，运用MVP、BLoc等主流技术进行APP项目开发</p>
-                                <P>组织团队敏捷开发，将项目模块化，框架化，与动画端/Unity端协同工作</p>
-                                <p>技能学习：Git分支管理、Flutter开发、NFC开发</p>
-                            </div>
-                        </div>
-                    </div>
+          <div class="container cc-experience">
+            <div class="h4 text-center mb-4 title">成长经历</div>
+
+            <div class="card">
+              <div class="row">
+                <div
+                  class="col-md-3 bg-primary"
+                  data-aos="fade-right"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body cc-experience-header">
+                    <p>2022.04 - 至今</p>
+                    <div class="h5">RustDesk 开源项目组</div>
+                    <img
+                      src="https://github.com/rustdesk/rustdesk/raw/master/res/icon.png"
+                      style="height: 50px"
+                    />
+                  </div>
                 </div>
-                <div class="card">
-                    <div class="row">
-                        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50"
-                             data-aos-duration="500">
-                            <div class="card-body cc-experience-header">
-                                <p>2020.04</p>
-                                <div class="h5">天气助手</div>
-                            </div>
-                        </div>
-                        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                            <div class="card-body">
-                                <div class="h5">基于ESP8266开发的天气助手程序</div>
-                                <p>通过连接互联网，将中国天气网数据进行Json序列化，实时显示在显示屏。供用户查看当地天气情况</p>
-                                <p>技能学习：Arduino C++</p>
-                                <a href="https://github.com/Kingtous/esp8266_arduino_weather_reporter" target="_blank">在线地址</a>
-                            </div>
-                        </div>
+                <div
+                  class="col-md-9"
+                  data-aos="fade-left"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body">
+                    <div class="h5">
+                      The Main/Second Core Contributor
+                      <img
+                        alt="GitHub Repo stars"
+                        src="https://img.shields.io/github/stars/rustdesk/rustdesk?style=flat"
+                      />
                     </div>
-                </div>
-                <div class="card">
-                    <div class="row">
-                        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50"
-                             data-aos-duration="500">
-                            <div class="card-body cc-experience-header">
-                                <p>2019.02 - 2019.08</p>
-                                <div class="h5">第12届中国大学生计算机设计大赛</div>
-                            </div>
-                        </div>
-                        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                            <div class="card-body">
-                                <div class="h5">多网络环境下的远程解锁工具</div>
-                                <p style="font-size: 20px">国家级A类二等奖</p>
-                                <p>担任项目安卓端、树莓派端(python socket)的应用开发</p>
-                                <p>负责与Windows客户端进行对接，协同实现远程计算机开机/登录/文件传输/关机等操作</p>
-                                <p>技能学习：安卓socket编程、WiFi Direct技术、WiFi/蓝牙开发</p>
-                                <a href="https://www.coolapk.com/apk/com.kingtous.remote_unlock" target="_blank">去酷安应用市场下载</a>
-                            </div>
-                        </div>
+
+                    <div class="h5">
+                      <a
+                        href="https://github.com/rustdesk/rustdesk"
+                        target="_blank"
+                        >RustDesk: Yet another remote desktop software, written
+                        in Rust.</a
+                      >
                     </div>
+                    <p>
+                      RustDesk为以Sciter JS +
+                      Rust为技术栈开发的远程桌面软件，开源免费。但由于Sciter
+                      JS长期未更新，且为闭源项目，并存在众多影响开发及用户体验的问题，RustDesk需要向更具现代化、跨平台的开源技术进行转型。
+                    </p>
+                    <p>
+                      个人参与RustDesk项目重构，进行Rust后端+Flutter前端的适配。并改进图像渲染，文件传输，多版本兼容问题等。
+                      过程中，为Flutter Engine&nbsp;<img
+                        alt="GitHub Repo stars"
+                        src="https://img.shields.io/github/stars/flutter/flutter?style=flat"
+                      />&nbsp;修复了<a
+                        href="https://github.com/flutter/engine/pull/36143"
+                        target="_blank"
+                        >Windows下光标问题</a
+                      >，PR已成功合入main分支，将在下一个稳定大版本上线使用。同时，主导并维护了多个适用于Flutter
+                      Desktop跨平台基础设施，如&nbsp;<a
+                        href="https://github.com/Kingtous/rustdesk_desktop_multi_window"
+                        target="_blank"
+                        >Flutter多功能多窗口库&nbsp;
+                        <img
+                          alt="GitHub Repo stars"
+                          src="https://img.shields.io/github/stars/Kingtous/rustdesk_desktop_multi_window?style=flat"
+                        /> </a
+                      >，<a
+                        href="https://github.com/Kingtous/flutter_custom_cursor"
+                        target="_blank"
+                        >自定义鼠标&nbsp;
+                        <img
+                          alt="GitHub Repo stars"
+                          src="https://img.shields.io/github/stars/Kingtous/flutter_custom_cursor?style=flat"
+                        /> </a
+                      >，<a
+                        href="https://github.com/Kingtous/flutter_texture_rgba_renderer"
+                        target="_blank"
+                        >原生纹理嵌入器&nbsp;
+                        <img
+                          alt="GitHub Repo stars"
+                          src="https://img.shields.io/github/stars/Kingtous/flutter_texture_rgba_renderer?style=flat" /></a
+                      >，<a
+                        href="https://github.com/Kingtous/proxy_manager"
+                        target="_blank"
+                        >代理设置器
+                        <img
+                          alt="GitHub Repo stars"
+                          src="https://img.shields.io/github/stars/Kingtous/proxy_manager?style=flat" /></a
+                      >。上述设施均开源，并被多个著名开源项目投入使用。
+                    </p>
+                    <p>
+                      同时，为多个开源社区提出代码修复或改进PR。如leanflutter/window_manager
+                      <img
+                        alt="GitHub Repo stars"
+                        src="https://img.shields.io/github/stars/leanflutter/window_manager?style=flat"
+                      />，cargo-bundle
+                      <img
+                        alt="GitHub Repo stars"
+                        src="https://img.shields.io/github/stars/burtonageo/cargo-bundle?style=flat"
+                      />等。均已合入主分支并投入正式版使用。
+                    </p>
+                    <p>
+                      目前，RustDesk Flutter版本已上线<a
+                        href="https://github.com/rustdesk/rustdesk/releases/tag/nightly"
+                        target="_blank"
+                        >Nightly版本</a
+                      >，Github star数从原16.2k上升到&nbsp;<img
+                        alt="GitHub Repo stars"
+                        src="https://img.shields.io/github/stars/rustdesk/rustdesk?style=flat"
+                      />。
+                    </p>
+                    <p>
+                      技能学习：Protobuf网络通信，FFI跨语言调用，Flutter Engine
+                      Native通讯及渲染机制...
+                    </p>
+                    <p>
+                      <a
+                        href="https://github.com/rustdesk/rustdesk/pulls?q=is%3Apr+author%3AKingtous+is%3Aclosed"
+                        target="_blank"
+                        >我的总贡献(Pull Requests)</a
+                      >
+                    </p>
+                  </div>
                 </div>
-                <div class="card">
-                    <div class="row">
-                        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50"
-                             data-aos-duration="500">
-                            <div class="card-body cc-experience-header">
-                                <p>2018.2 - 至今</p>
-                                <div class="h5">RTCO Lab</div>
-                            </div>
-                        </div>
-                        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                            <div class="card-body">
-                                <div class="h5">东北大学秦皇岛分校"实时并行处理"实验室</div>
-                                <p>负责"OpenMP程序并行流图图转换工具"项目的程序开发</p>
-                                <p>将一个完整的OpenMP并行C程序通过类汇编代码转换为
-                                    并行流图(PCFG)、执行流图(EFG)，其可以很好地描述程序特性如Loop bound,
-                                    infeasible path，最坏执行时间(WCET)等，可供相关科研工作者参考</p>
-                                <p>完成论文《OmpTG - From OpenMP programs to graphs》</p>
-                                <p>技能学习：Latex论文，Markdown文档，Python正则表达式，IEEE论文编写</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="row">
-                        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50"
-                             data-aos-duration="500">
-                            <div class="card-body cc-experience-header">
-                                <p>2020.02 - 至今</p>
-                                <div class="h5">Web课程设计</div>
-                            </div>
-                        </div>
-                        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                            <div class="card-body">
-                                <div class="h5">具有社区+购物车+商城+代码在线编写执行的系统平台</div>
-                                <p>用户可以在平台上编写Python3/Java/C++代码，并获得执行结果；在平台上发布自己的帖子并获取他人的评论；在平台上购买相关物品</p>
-                                <p>技能学习：Flutter Web，Flask，SQLAlchemy，RESTful API</p>
-                                <a href="https://coder.kingtous.cn" target="_blank">在线地址</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="row">
-                        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50"
-                             data-aos-duration="500">
-                            <div class="card-body cc-experience-header">
-                                <p>2018.02 - 至今</p>
-                                <div class="h5">程序设计竞赛</div>
-                            </div>
-                        </div>
-                        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                            <div class="card-body">
-                                <div class="h5">NEUQ-ACM、HBCPC、蓝桥杯等</div>
-                                <p>NEUQ-ACM程序设计竞赛(团队赛)一等奖 × 2</p>
-                                <p>HBCPC河北计算机程序设计大赛省赛二等奖 × 2</p>
-                                <p>第九届蓝桥杯C++（A组）二等奖</p>
-                                <p>...</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+
+            <div class="card">
+              <div class="row">
+                <div
+                  class="col-md-3 bg-primary"
+                  data-aos="fade-right"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body cc-experience-header">
+                    <p>2022.06 - 2022.10</p>
+                    <div class="h5">
+                      2022 GitLink Code Camp 编程夏令营 -
+                      CloudWeGo（北京字节跳动有限公司）
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-9"
+                  data-aos="fade-left"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body">
+                    <div class="h5">
+                      课题：使用纯异步Rust实现高性能可拓展的通用网关系统(<a
+                        href="https://github.com/monoio-rs/monoio-gateway"
+                        target="_blank"
+                        >Monoio Gateway</a
+                      >
+                      <img
+                        alt="GitHub Repo stars"
+                        src="https://img.shields.io/github/stars/monoio-rs/monoio-gateway?style=flat"
+                      />)
+                    </div>
+                    <p>
+                      Monoio为ByteDance
+                      CloudWeGo项目之一，使用安全的Rust语言编写，旨在CPU核数多的情况下，解决如Tokio库在多核调度下<a>性能劣化</a>的问题。但Monoio基于io-uring异步技术编写，使得Tokio、Tower等现有http框架无法复用，故需要打造更多生态进行支持。
+                    </p>
+                    <p>
+                      个人负责Monoio
+                      Gateway的开发，包括TCP流量代理，HTTP流量代理，TLS支持，基于类Tower的热插拔插件支持、ACME支持等。为Monoio提供了通用的，多核场景下网关的实现。开发该网关的同时，为Monoio提出统一化Splitable
+                      Trait的概念，<a
+                        href="https://github.com/bytedance/monoio/pull/105"
+                        target="_blank"
+                        >PR已成功合入Monoio主仓库</a
+                      >，进一步提升了IO Read/Write逻辑的可复用性。
+                    </p>
+                    <p>
+                      目前项目经过内部修改，投入字节内部使用，已落地。
+                      <a
+                        href="https://www.bilibili.com/video/BV1sG411E7cH/?spm_id_from=333.337.search-card.all.click"
+                        target="_blank"
+                        >介绍视频</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="row">
+                <div
+                  class="col-md-3 bg-primary"
+                  data-aos="fade-right"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body cc-experience-header">
+                    <p>2020.10 - 2021.04</p>
+                    <div class="h5">北京字节跳动有限公司</div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-9"
+                  data-aos="fade-left"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body">
+                    <div class="h5">Data-开发者生态-研发</div>
+                    <p>
+                      接手火山翻译SDK（语音实时翻译、图片翻译），
+                      组织进行代码梳理和重构，进行组件化拆分，支持分功能接入。
+                    </p>
+                    <p>
+                      接入火山同传服务，完成语音实时翻译、实时降噪功能（C++）的开发，提供稳定、长时的语音翻译能力。
+                    </p>
+                    <p>
+                      参与字节Base
+                      SDK/小程序SDK的梳理与重构，推进抖音、今日头条小程序的适配。
+                    </p>
+                    <p>
+                      技能学习：Android Cronet、FFmpeg + Android
+                      NDK、Websocket、多线程开发...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 
+            <div class="card">
+              <div class="row">
+                <div
+                  class="col-md-3 bg-primary"
+                  data-aos="fade-right"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body cc-experience-header">
+                    <p>2020.02 - 2020.10</p>
+                    <div class="h5">上海白日梦科技有限公司</div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-9"
+                  data-aos="fade-left"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body">
+                    <div class="h5">实习-移动端(Flutter方向)开发</div>
+                    <p>担任《此时》移动端项目组组长一职</p>
+                    <p>
+                      参与项目的设计与研究，运用MVP、BLoc等主流技术进行APP项目开发
+                    </p>
+                    <p>
+                      组织团队敏捷开发，将项目模块化，框架化，与动画端/Unity端协同工作
+                    </p>
+                    <p>技能学习：Git分支管理、Flutter开发、NFC开发</p>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            <div class="card">
+              <div class="row">
+                <div
+                  class="col-md-3 bg-primary"
+                  data-aos="fade-right"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body cc-experience-header">
+                    <p>2022.04 - 至今</p>
+                    <div class="h5">FClash</div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-9"
+                  data-aos="fade-left"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body">
+                    <div class="h5">基于开源clash的跨平台网络客户端：<a href="https://github.com/Kingtous/fclash" target="_blank">FClash</a>&nbsp;<img
+                        alt="GitHub Repo stars"
+                        src="https://img.shields.io/github/stars/kingtous/fclash?style=flat"
+                      /></div>
+                    <p>Clash为开源的网络代理工具，使用Golang编写。为了方便科研工作者使用，衍生出了多个跨平台客户端，但衍生客户端无法在Linux下完美运行，如进程僵死，无法设置系统代理。</p>
+                    <p>个人提出并主导Fclash的开发，以动态链接库形式集成clash于代码中，使用FFI进行交互，Flutter+Golang+C混合开发，解决了现有工具频繁在loop下访问Restful API的问题。支持了各大Linux发行版，同时兼容Windows及macOS。</p>
+                    <p>目前Fclash下载量达到1.7k次，star数已达122，已收录到Deepin星火应用商店。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="row">
+                <div
+                  class="col-md-3 bg-primary"
+                  data-aos="fade-right"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body cc-experience-header">
+                    <p>2018.2 - 2022.03</p>
+                    <div class="h5">RTCO Lab</div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-9"
+                  data-aos="fade-left"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body">
+                    <div class="h5">
+                      华中科技大学"现代数据工程与实时计算"实验室 &
+                      东北大学"实时并行计算"实验室
+                    </div>
+                    <p>OpenMP程序并行流图图转换工具</p>
+                    <p>
+                      将一个完整的OpenMP并行C程序通过类汇编代码转换为
+                      并行流图(PCFG)、执行流图(EFG)，其可以很好地描述程序特性如Loop
+                      bound, infeasible
+                      path，最坏执行时间(WCET)等，可供相关科研工作者参考
+                    </p>
+                    <p>
+                      完成论文《OmpTG - From OpenMP programs to graphs》<a></a>
+                    </p>
+                    <p>
+                      技能学习：Latex论文撰写，Markdown文档，Python，Docker，PHP
+                    </p>
+                    <p>
+                      Jinghao Sun, Tao Jin, Yekai Xue, Liwei Zhang, Jinrong Liu,
+                      Nan Guan, Quan Zhou, ompTG: From OpenMP Programs to Task
+                      Graphs, Journal of Systems Architecture, Volume 126, 2022,
+                      102470, ISSN 1383-7621,
+                      <a href="https://doi.org/10.1016/j.sysarc.2022.102470"
+                        >https://doi.org/10.1016/j.sysarc.2022.102470</a
+                      >
+                    </p>
+                    <p>
+                      Abstract: Real-time systems are shifting them from
+                      single-core to multi-core processors. Software must be
+                      parallelized to fully utilize the computation power of
+                      multi-core architectures. OpenMP is a promising framework
+                      to develop parallel real-time software on multi-cores.
+                      OpenMP programs keep certain similarity to real-time task
+                      graph models, and this motivates much recent work done on
+                      real-time scheduling of OpenMP tasks. However, these
+                      studies conduct evaluations with randomly generated task
+                      graphs, which cannot well capture the structure features
+                      of realistic OpenMP programs. To fill the gap between
+                      theoretical real-time scheduling research and the OpenMP
+                      software reality, we develop an ompTG tool for
+                      transforming OpenMP programs into parallel task graphs.
+                      ompTG prepares a way to exhibit OpenMP such that the
+                      researchers in real-time community can easily understand:
+                      An OpenMP system consists of a set of tasks. There are
+                      interdependencies among tasks, and each task has an intra
+                      structure of the control-flow graph. Besides the topology
+                      of OpenMP tasks, we also provide a safe WCET for each
+                      vertex of OpenMP task graphs by using static WCET analysis
+                      techniques. Moreover, we derive the flow facts, e.g,
+                      infeasible path and loop bounds for the task graph, which
+                      is necessary information for real-time scheduling and
+                      analysis. As a case study, we collect 12 OpenMP programs
+                      from the BOTS benchmark, and transform them into task
+                      graphs, demonstrating the usage of ompTG.
+                    </p>
+
+                    <p>
+                      Keywords: OpenMP; ompTG; Parallel task graph; Control flow
+                      analysis
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="row">
+                <div
+                  class="col-md-3 bg-primary"
+                  data-aos="fade-right"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body cc-experience-header">
+                    <p>2020.06 - 2020.08</p>
+                    <div class="h5">第十五届全国大学生智能汽车竞赛</div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-9"
+                  data-aos="fade-left"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body">
+                    <div class="h5">百度深度学习创意组</div>
+                    <p style="font-size: 20px">国家级A类一等奖</p>
+                    <p>参与“智能交通+如影随形”代码逻辑的编写</p>
+                    <p>集成Paddle深度学习模型进行小车的自主运行</p>
+                    <p>
+                      技能学习：Python多进程、多线程编程、PaddleDetection使用、PetaLinux
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="row">
+                <div
+                  class="col-md-3 bg-primary"
+                  data-aos="fade-right"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body cc-experience-header">
+                    <p>2019.02 - 2019.08</p>
+                    <div class="h5">第12届中国大学生计算机设计大赛</div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-9"
+                  data-aos="fade-left"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body">
+                    <div class="h5">多网络环境下的远程解锁工具</div>
+                    <p style="font-size: 20px">国家级A类二等奖</p>
+                    <p>担任项目安卓端、树莓派端(python socket)的应用开发</p>
+                    <p>
+                      负责与Windows客户端进行对接，协同实现远程计算机开机/登录/文件传输/关机等操作。应用《远程解锁》目前已上架酷安、应用宝、华为应用市场等平台。Flutter版本已上架Google
+                      Play Store。应用酷安评分9.4，总下载量超5w
+                    </p>
+                    <p>
+                      技能学习：安卓socket编程、WiFi Direct技术、WiFi/蓝牙开发
+                    </p>
+                    <a
+                      href="https://www.coolapk.com/apk/com.kingtous.remote_unlock"
+                      target="_blank"
+                      >去酷安应用市场下载</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="row">
+                <div
+                  class="col-md-3 bg-primary"
+                  data-aos="fade-right"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body cc-experience-header">
+                    <p>2022.02 - 2022.03</p>
+                    <div class="h5">
+                      2021年第十一届MathorCup高校数学建模挑战赛
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-9"
+                  data-aos="fade-left"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body">
+                    <div class="h5">研究生组别 - 建模队长</div>
+                    <p style="font-size: 20px">国家级二等奖</p>
+                    <p>提出并进行A题二手车估价预测模型的搭建。</p>
+                    <p>技能学习：PyTorch、机器学习sklearn、matplotlib</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="row">
+                <div
+                  class="col-md-3 bg-primary"
+                  data-aos="fade-right"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body cc-experience-header">
+                    <p>2021.10 - 2021.12</p>
+                    <div class="h5">2021年第十八届华为杯数学建模国赛三等奖</div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-9"
+                  data-aos="fade-left"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body">
+                    <div class="h5">研究生组别 - 建模队长</div>
+                    <p style="font-size: 20px">国家级A类三等奖</p>
+                    <p>提出并进行D题医药的数学模型的搭建。</p>
+                    <p>技能学习：PyTorch、机器学习sklearn、matplotlib</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 
+            <div class="card">
+              <div class="row">
+                <div
+                  class="col-md-3 bg-primary"
+                  data-aos="fade-right"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body cc-experience-header">
+                    <p>2020.04</p>
+                    <div class="h5">天气助手</div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-9"
+                  data-aos="fade-left"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body">
+                    <div class="h5">基于ESP8266开发的天气助手程序</div>
+                    <p>
+                      通过连接互联网，将中国天气网数据进行Json序列化，实时显示在显示屏。供用户查看当地天气情况
+                    </p>
+                    <p>技能学习：Arduino C++</p>
+                    <a
+                      href="https://github.com/Kingtous/esp8266_arduino_weather_reporter"
+                      target="_blank"
+                      >在线地址</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="row">
+                <div
+                  class="col-md-3 bg-primary"
+                  data-aos="fade-right"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body cc-experience-header">
+                    <p>2020.02 - 至今</p>
+                    <div class="h5">Web课程设计</div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-9"
+                  data-aos="fade-left"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body">
+                    <div class="h5">
+                      具有社区+购物车+商城+代码在线编写执行的系统平台
+                    </div>
+                    <p>
+                      用户可以在平台上编写Python3/Java/C++代码，并获得执行结果；在平台上发布自己的帖子并获取他人的评论；在平台上购买相关物品
+                    </p>
+                    <p>技能学习：Flutter Web，Flask，SQLAlchemy，RESTful API</p>
+                    <a href="https://coder.kingtous.cn" target="_blank"
+                      >在线地址</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="row">
+                <div
+                  class="col-md-3 bg-primary"
+                  data-aos="fade-right"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body cc-experience-header">
+                    <p>2018.02 - 至今</p>
+                    <div class="h5">程序设计竞赛</div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-9"
+                  data-aos="fade-left"
+                  data-aos-offset="50"
+                  data-aos-duration="500"
+                >
+                  <div class="card-body">
+                    <div class="h5">NEUQ-ACM、HBCPC、蓝桥杯等</div>
+                    <p>NEUQ-ACM程序设计竞赛(团队赛)一等奖 × 2</p>
+                    <p>HBCPC河北计算机程序设计大赛省赛二等奖 × 2</p>
+                    <p>第九届蓝桥杯C++（A组）二等奖</p>
+                    <p>...</p>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
         </div>
         <div class="section" id="contact">
-            <div class="cc-contact-information" style="background-image: url('/static/images/staticmap.png');">
-                <div class="container">
-                    <div class="cc-contact">
-                        <div class="row">
-                            <div class="col-md-9">
-                                <div class="card mb-0" data-aos="zoom-in">
-                                    <div class="h4 text-center title">联系方式</div>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="card-body">
-                                                <form action="https://formspree.io/xwkreepb" method="POST">
-                                                    <div class="row mb-3">
-                                                        <div class="col">
-                                                            <div class="input-group"><span class="input-group-addon"><i
-                                                                    class="fa fa-user-circle"></i></span>
-                                                                <input class="form-control" type="text" name="name"
-                                                                       placeholder="姓名" required="required"/>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row mb-3">
-                                                        <div class="col">
-                                                            <div class="input-group"><span class="input-group-addon"><i
-                                                                    class="fa fa-file-text"></i></span>
-                                                                <input class="form-control" type="text" name="name"
-                                                                       placeholder="内容" required="required"/>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row mb-3">
-                                                        <div class="col">
-                                                            <div class="input-group"><span class="input-group-addon"><i
-                                                                    class="fa fa-envelope"></i></span>
-                                                                <input class="form-control" type="email" name="_replyto"
-                                                                       placeholder="电子邮箱" required="required"/>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="row">
-                                                        <div class="col">
-                                                            <button class="btn btn-primary" type="submit">发送</button>
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="card-body">
-                                                <p class="mb-0"><strong>地址</strong></p>
-                                                <p class="pb-2">河北省秦皇岛市海港区泰山路143号东北大学秦皇岛分校</p>
-                                                <p class="mb-0"><strong>手机</strong></p>
-                                                <p class="pb-2">+86-15533508140</p>
-                                                <p class="mb-0"><strong>电子邮箱</strong></p>
-                                                <p>me@kingtous.cn</p>
-                                            </div>
-                                        </div>
-                                    </div>
+          <div
+            class="cc-contact-information"
+          >
+            <div class="container">
+              <div class="cc-contact">
+                <div class="row">
+                  <div class="col-md-9">
+                    <div class="card mb-0" data-aos="zoom-in">
+                      <div class="h4 text-center title">联系方式</div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="card-body">
+                            <form
+                              action="https://formspree.io/xwkreepb"
+                              method="POST"
+                            >
+                              <div class="row mb-3">
+                                <div class="col">
+                                  <div class="input-group">
+                                    <span class="input-group-addon"
+                                      ><i class="fa fa-user-circle"></i
+                                    ></span>
+                                    <input
+                                      class="form-control"
+                                      type="text"
+                                      name="name"
+                                      placeholder="姓名"
+                                      required="required"
+                                    />
+                                  </div>
                                 </div>
-                            </div>
+                              </div>
+                              <div class="row mb-3">
+                                <div class="col">
+                                  <div class="input-group">
+                                    <span class="input-group-addon"
+                                      ><i class="fa fa-file-text"></i
+                                    ></span>
+                                    <input
+                                      class="form-control"
+                                      type="text"
+                                      name="name"
+                                      placeholder="内容"
+                                      required="required"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row mb-3">
+                                <div class="col">
+                                  <div class="input-group">
+                                    <span class="input-group-addon"
+                                      ><i class="fa fa-envelope"></i
+                                    ></span>
+                                    <input
+                                      class="form-control"
+                                      type="email"
+                                      name="_replyto"
+                                      placeholder="电子邮箱"
+                                      required="required"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="row">
+                                <div class="col">
+                                  <button class="btn btn-primary" type="submit">
+                                    发送
+                                  </button>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
                         </div>
+                        <div class="col-md-6">
+                          <div class="card-body">
+                            <p class="mb-0"><strong>地址</strong></p>
+                            <p class="pb-2">湖北省武汉市洪山区华中科技大学</p>
+                            <p class="mb-0"><strong>手机</strong></p>
+                            <p class="pb-2">+86-15180596882</p>
+                            <p class="mb-0"><strong>电子邮箱</strong></p>
+                            <p>me@kingtous.cn</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<footer class="footer">
-    <div class="text-center text-muted">
+    <footer class="footer">
+      <div class="text-center text-muted">
         <p>&copy;Kingtous reserved.</p>
-    </div>
-</footer>
-<script src="/static/js/core/jquery.3.2.1.min.js"></script>
-<script src="/static/js/core/popper.min.js"></script>
-<script src="/static/js/core/bootstrap.min.js"></script>
-<script src="/static/js/now-ui-kit.js?v=1.1.0"></script>
-<script src="/static/js/aos.js"></script>
-<script src="/static/scripts/main.js"></script>
-</body>
+      </div>
+    </footer>
+    <script src="/static/js/core/jquery.3.2.1.min.js"></script>
+    <script src="/static/js/core/popper.min.js"></script>
+    <script src="/static/js/core/bootstrap.min.js"></script>
+    <script src="/static/js/now-ui-kit.js?v=1.1.0"></script>
+    <script src="/static/js/aos.js"></script>
+    <script src="/static/scripts/main.js"></script>
+  </body>
 </html>
